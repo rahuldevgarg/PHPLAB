@@ -5,7 +5,16 @@
     */
 
 # Scripting Format Comment
-echo "This is my First PHP Code";
+//echo "This is my First PHP Code";
+$name = 'Rahul';
+$age = '20';
+$salary = '10';
+echo $name;
+echo <br/>;
+echo $age;
+echo <br/>;
+echo $salary;
+echo <br/>;
 
 ?>
 
@@ -18,6 +27,6 @@ echo "This is my First PHP Code";
     <title>Document</title>
 </head>
 <body>
-    <p>This is html embedded in php.</p>
+    <?php echo "This is html embedded in php."?>
 </body>
 </html>
