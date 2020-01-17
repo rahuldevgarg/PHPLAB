@@ -10,11 +10,11 @@ $name = 'Rahul';
 $age = '20';
 $salary = '10';
 echo $name;
-echo <br/>;
+echo "<br/>";
 echo $age;
-echo <br/>;
+echo "<br/>";
 echo $salary;
-echo <br/>;
+echo "<br/>";
 
 ?>
 

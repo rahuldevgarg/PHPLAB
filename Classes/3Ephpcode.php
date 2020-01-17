@@ -80,19 +80,23 @@ echo "$dt1";        // display value as it is
 
 //Find string Length
 echo "<br><br>";
+echo "Length of Hello World : ";
 echo strlen("Hello world");
 
 // string World Count
 echo "<br><br>";
+echo "No. of Words in Hello World : ";
 echo str_word_count("Hello world");
 
 // String Reverse
 echo "<br><br>";
+echo "Hello World Reversed: ";
 echo strrev("Hello world");
 
 // String Replace
 
 echo "<br><br>";
+echo "Hello replaced with hru..?? in Hello World : ";
 echo str_replace("Hello","hru..??","Hello World");
 
 
